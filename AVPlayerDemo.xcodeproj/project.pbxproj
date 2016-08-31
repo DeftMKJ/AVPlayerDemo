@@ -15,6 +15,19 @@
 		B1ABA15A1D7043B700E1D293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ABA1581D7043B700E1D293 /* LaunchScreen.storyboard */; };
 		B1ABA1651D7043B700E1D293 /* AVPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ABA1641D7043B700E1D293 /* AVPlayerDemoTests.m */; };
 		B1ABA1701D7043B700E1D293 /* AVPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ABA16F1D7043B700E1D293 /* AVPlayerDemoUITests.m */; };
+		B1D864C81D7127FF00F79DB6 /* fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C21D7127FF00F79DB6 /* fullscreen@2x.png */; };
+		B1D864C91D7127FF00F79DB6 /* fullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C31D7127FF00F79DB6 /* fullscreen@3x.png */; };
+		B1D864CA1D7127FF00F79DB6 /* nonfullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C41D7127FF00F79DB6 /* nonfullscreen@2x.png */; };
+		B1D864CB1D7127FF00F79DB6 /* nonfullscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C51D7127FF00F79DB6 /* nonfullscreen@3x.png */; };
+		B1D864CC1D7127FF00F79DB6 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C61D7127FF00F79DB6 /* play@2x.png */; };
+		B1D864CD1D7127FF00F79DB6 /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864C71D7127FF00F79DB6 /* play@3x.png */; };
+		B1D864D21D71282400F79DB6 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864CE1D71282400F79DB6 /* close@2x.png */; };
+		B1D864D31D71282400F79DB6 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864CF1D71282400F79DB6 /* close@3x.png */; };
+		B1D864D41D71282400F79DB6 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864D01D71282400F79DB6 /* pause@2x.png */; };
+		B1D864D51D71282400F79DB6 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864D11D71282400F79DB6 /* pause@3x.png */; };
+		B1D864D81D713B2700F79DB6 /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864D61D713B2700F79DB6 /* dot@2x.png */; };
+		B1D864D91D713B2700F79DB6 /* dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D864D71D713B2700F79DB6 /* dot@3x.png */; };
+		E8F395A9E184A7E0D2A26F97 /* libPods-AVPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577C5ECABBF518643F6B1A4C /* libPods-AVPlayerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14F4A45DB9351341582DF5E8 /* Pods-AVPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		577C5ECABBF518643F6B1A4C /* libPods-AVPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA36F089C1E7514F6DBE1437 /* Pods-AVPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1ABA1471D7043B700E1D293 /* AVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ABA14B1D7043B700E1D293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1ABA14D1D7043B700E1D293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +67,18 @@
 		B1ABA16B1D7043B700E1D293 /* AVPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ABA16F1D7043B700E1D293 /* AVPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerDemoUITests.m; sourceTree = "<group>"; };
 		B1ABA1711D7043B700E1D293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D864C21D7127FF00F79DB6 /* fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen@2x.png"; sourceTree = "<group>"; };
+		B1D864C31D7127FF00F79DB6 /* fullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen@3x.png"; sourceTree = "<group>"; };
+		B1D864C41D7127FF00F79DB6 /* nonfullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nonfullscreen@2x.png"; sourceTree = "<group>"; };
+		B1D864C51D7127FF00F79DB6 /* nonfullscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nonfullscreen@3x.png"; sourceTree = "<group>"; };
+		B1D864C61D7127FF00F79DB6 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		B1D864C71D7127FF00F79DB6 /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
+		B1D864CE1D71282400F79DB6 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		B1D864CF1D71282400F79DB6 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		B1D864D01D71282400F79DB6 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		B1D864D11D71282400F79DB6 /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
+		B1D864D61D713B2700F79DB6 /* dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@2x.png"; sourceTree = "<group>"; };
+		B1D864D71D713B2700F79DB6 /* dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F395A9E184A7E0D2A26F97 /* libPods-AVPlayerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AAD9E977174B7802A46E04E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577C5ECABBF518643F6B1A4C /* libPods-AVPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DF89314704CDC1DB6E0EB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA36F089C1E7514F6DBE1437 /* Pods-AVPlayerDemo.debug.xcconfig */,
+				14F4A45DB9351341582DF5E8 /* Pods-AVPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B1ABA13E1D7043B600E1D293 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				B1ABA1631D7043B700E1D293 /* AVPlayerDemoTests */,
 				B1ABA16E1D7043B700E1D293 /* AVPlayerDemoUITests */,
 				B1ABA1481D7043B700E1D293 /* Products */,
+				9DF89314704CDC1DB6E0EB8E /* Pods */,
+				6AAD9E977174B7802A46E04E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +149,18 @@
 		B1ABA1491D7043B700E1D293 /* AVPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B1D864C21D7127FF00F79DB6 /* fullscreen@2x.png */,
+				B1D864C31D7127FF00F79DB6 /* fullscreen@3x.png */,
+				B1D864C41D7127FF00F79DB6 /* nonfullscreen@2x.png */,
+				B1D864C51D7127FF00F79DB6 /* nonfullscreen@3x.png */,
+				B1D864C61D7127FF00F79DB6 /* play@2x.png */,
+				B1D864C71D7127FF00F79DB6 /* play@3x.png */,
+				B1D864CE1D71282400F79DB6 /* close@2x.png */,
+				B1D864CF1D71282400F79DB6 /* close@3x.png */,
+				B1D864D01D71282400F79DB6 /* pause@2x.png */,
+				B1D864D11D71282400F79DB6 /* pause@3x.png */,
+				B1D864D61D713B2700F79DB6 /* dot@2x.png */,
+				B1D864D71D713B2700F79DB6 /* dot@3x.png */,
 				B1ABA14D1D7043B700E1D293 /* AppDelegate.h */,
 				B1ABA14E1D7043B700E1D293 /* AppDelegate.m */,
 				B1ABA1501D7043B700E1D293 /* ViewController.h */,
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1ABA1741D7043B700E1D293 /* Build configuration list for PBXNativeTarget "AVPlayerDemo" */;
 			buildPhases = (
+				79C4E605A18353CE822578E1 /* [CP] Check Pods Manifest.lock */,
 				B1ABA1431D7043B600E1D293 /* Sources */,
 				B1ABA1441D7043B600E1D293 /* Frameworks */,
 				B1ABA1451D7043B600E1D293 /* Resources */,
+				126387880EAD4854F818A6EF /* [CP] Embed Pods Frameworks */,
+				FDFCB81AD637789E68299E00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +306,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D864CB1D7127FF00F79DB6 /* nonfullscreen@3x.png in Resources */,
+				B1D864D31D71282400F79DB6 /* close@3x.png in Resources */,
 				B1ABA15A1D7043B700E1D293 /* LaunchScreen.storyboard in Resources */,
+				B1D864C91D7127FF00F79DB6 /* fullscreen@3x.png in Resources */,
+				B1D864D91D713B2700F79DB6 /* dot@3x.png in Resources */,
+				B1D864D51D71282400F79DB6 /* pause@3x.png in Resources */,
+				B1D864C81D7127FF00F79DB6 /* fullscreen@2x.png in Resources */,
 				B1ABA1571D7043B700E1D293 /* Assets.xcassets in Resources */,
+				B1D864D21D71282400F79DB6 /* close@2x.png in Resources */,
+				B1D864D41D71282400F79DB6 /* pause@2x.png in Resources */,
+				B1D864CD1D7127FF00F79DB6 /* play@3x.png in Resources */,
 				B1ABA1551D7043B700E1D293 /* Main.storyboard in Resources */,
+				B1D864CC1D7127FF00F79DB6 /* play@2x.png in Resources */,
+				B1D864D81D713B2700F79DB6 /* dot@2x.png in Resources */,
+				B1D864CA1D7127FF00F79DB6 /* nonfullscreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +339,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		126387880EAD4854F818A6EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C4E605A18353CE822578E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFCB81AD637789E68299E00 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayerDemo/Pods-AVPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1ABA1431D7043B600E1D293 /* Sources */ = {
@@ -413,6 +536,7 @@
 		};
 		B1ABA1751D7043B700E1D293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA36F089C1E7514F6DBE1437 /* Pods-AVPlayerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
@@ -424,6 +548,7 @@
 		};
 		B1ABA1761D7043B700E1D293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F4A45DB9351341582DF5E8 /* Pods-AVPlayerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
@@ -498,6 +623,7 @@
 				B1ABA1761D7043B700E1D293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1ABA1771D7043B700E1D293 /* Build configuration list for PBXNativeTarget "AVPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +632,7 @@
 				B1ABA1791D7043B700E1D293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1ABA17A1D7043B700E1D293 /* Build configuration list for PBXNativeTarget "AVPlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +641,7 @@
 				B1ABA17C1D7043B700E1D293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
